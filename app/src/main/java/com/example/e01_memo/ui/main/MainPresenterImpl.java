@@ -27,7 +27,6 @@ public class MainPresenterImpl implements MainContract.MainPresenter {
         mainView.setPresenter(this);
     }
 
-
     @Override
     public void onDestroy() {
         if (mainView != null) mainView = null;
